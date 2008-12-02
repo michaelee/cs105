@@ -31,9 +31,9 @@ def play_blackjack(upcard)
   hand_value(hand)
 end
 
-def simulate(upcard)
+def simulate(upcard, num_games)
   busts = 0
-  1000.times do
+  num_games.times do
     hand_val = play_blackjack(upcard)
     if hand_val > 21
       busts = busts + 1
@@ -43,5 +43,5 @@ def simulate(upcard)
 end
 
 CARDS.each do |card|
-  puts "Busts for #{card} = #{simulate(card)}"
+  puts "Busts for #{card} = #{simulate(card, 1000)}"
 end
