@@ -28,7 +28,7 @@ start_with_p = ["peter", "piper", "picked", "peck", "pepper"]
 
 shorter_than_5 = ["a", "peck", "of"]
 
-sentence_length = 35
+sentence_length = 29
 
 # the following puzzles are based on the "arrays" array
 
