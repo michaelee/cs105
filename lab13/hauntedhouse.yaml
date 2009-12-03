@@ -1,0 +1,22 @@
+start:
+  name: the start room
+  description: an elegant chamber with a huge crystal chandelier
+  exits:
+    south: [zombie room, a greenish hue]
+    east:  [room of mice, a grayish writhing mass]
+
+zombie room:
+  name: a room of zombies
+  description: a group of freaky looking zombies heading your way.
+  exits:
+    north: [start, a bright passageway]
+
+room of mice:
+  name: a room of mice
+  description: at least a dozen huge, hairy, black rats!
+  exits:
+    west: [start, a bright passageway]
+    east: [exit, a blinding light]
+
+exit:
+  name: the exit!
